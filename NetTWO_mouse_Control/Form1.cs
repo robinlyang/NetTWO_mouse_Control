@@ -16,5 +16,17 @@ namespace NetTWO_mouse_Control
         {
             InitializeComponent();
         }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            textBox1.Text = e.X.ToString();
+            textBox2.Text = e.Y.ToString();
+        }
+
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            textBox1.Text = e.X.ToString();
+            textBox2.Text = e.Y.ToString();
+        }
     }
 }
