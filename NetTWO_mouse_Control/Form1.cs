@@ -56,7 +56,7 @@ namespace NetTWO_mouse_Control
             }
             //check for 1 pressed
             //1 = (20, 259), (115, 316)
-            if (e.X >= 20 && e.X <= 259 && e.Y >= 115 && e.Y <= 316)
+            if (e.X >= 20 && e.X <= 115 && e.Y >= 259 && e.Y <= 316)
             {
                 if(oper=="")
                 {
@@ -68,11 +68,7 @@ namespace NetTWO_mouse_Control
                     number2 = number2 + "1";
                     output.Text = number2;
                 }
-                
             }
-
-
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
